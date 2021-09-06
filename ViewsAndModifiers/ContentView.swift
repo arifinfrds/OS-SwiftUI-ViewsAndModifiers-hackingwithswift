@@ -10,9 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello World")
-            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .padding()
             .background(Color.red)
-            .edgesIgnoringSafeArea(.all)
+            .padding()
+            .background(Color.blue)
+            .padding()
+            .background(Color.green)
+            .padding()
+            .background(Color.yellow)
     }
 }
 
